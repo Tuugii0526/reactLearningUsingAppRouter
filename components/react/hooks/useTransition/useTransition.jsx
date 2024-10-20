@@ -1,5 +1,5 @@
 "use client"
 import { useTransition } from "react"
-export const useTransition=()=>{
+export const useTransitionPage=()=>{
     return 
 }
