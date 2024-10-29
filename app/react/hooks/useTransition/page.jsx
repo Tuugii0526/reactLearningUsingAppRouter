@@ -12,7 +12,9 @@ export default function Page(){
         setTab(tab)
     }
     return (
-        <div className="w-full h-full flex flex-col items-center">
+        <div className="right-container">
+            <div></div>
+            <div>
             <p className={`text-center ${poppins.className}`}>Use Transiton</p>
             <div className="w-full flex justify-center gap-2">
                 <TabButton isActive={tab==='about'} onClick={()=>{
@@ -35,7 +37,8 @@ export default function Page(){
                 {tab==='about' && <AboutTab />}
                 {tab==='posts' && <PostsTab/>}
                 {tab==='contact' && <ContactTab/>}
+            </div>
+            <div className="bg-slate-400 w-full h-full"></div>
         </div>
-        
     )
 }

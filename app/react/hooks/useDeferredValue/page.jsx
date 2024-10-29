@@ -1,5 +1,5 @@
 export default function Page(){
     return (
-        <div>Hell Iam use transiton</div>
+        <div>Hell Iam useDeferred value</div>
     )
 }
