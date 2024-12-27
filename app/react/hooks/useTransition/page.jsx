@@ -6,6 +6,7 @@ import TabButton from "./TabButton";
 import { AboutTab } from "./AboutTab";
 import PostsTab from "./PostsTab";
 import { ContactTab } from "./ContactTab";
+
 export default function Page() {
   const [tab, setTab] = useState("about");
   function selectTab(tab) {
